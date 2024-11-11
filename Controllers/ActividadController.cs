@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
-[Authorize(Roles = "Admin")]
 [ApiController]
 [Route("api/actividades")]
+[Authorize(Roles = "Admin")]
 public class ActividadController : ControllerBase
 {
   private readonly IActividadService _actividadService;

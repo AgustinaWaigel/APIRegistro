@@ -4,8 +4,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
+
 [ApiController]
 [Route("api/registros")]
+[Authorize(Roles = "user,Admin")]
+
 public class RegistroController : ControllerBase
 {
     private readonly IRegistroService _registroService;
@@ -16,7 +19,6 @@ public class RegistroController : ControllerBase
         _registroService = registroService;
         _actividadService = actividadService;
     }
-    [Authorize(Roles = "user")]
 
     [HttpGet]
     public ActionResult<List<Registro>> GetAll()
@@ -49,7 +51,6 @@ public class RegistroController : ControllerBase
     }
 
     [HttpPost]
-
     public ActionResult<Registro> NuevoRegistro(RegistroDTO r)
     {
         var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);

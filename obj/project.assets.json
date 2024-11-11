@@ -4455,11 +4455,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\agusw\\OneDrive\\Escritorio\\APIProgra2\\APIProgra2\\ApiPractica.csproj",
+      "projectUniqueName": "C:\\Users\\agusw\\OneDrive\\Escritorio\\nueva prueba\\APIRegistro\\ApiPractica.csproj",
       "projectName": "ApiPractica",
-      "projectPath": "C:\\Users\\agusw\\OneDrive\\Escritorio\\APIProgra2\\APIProgra2\\ApiPractica.csproj",
+      "projectPath": "C:\\Users\\agusw\\OneDrive\\Escritorio\\nueva prueba\\APIRegistro\\ApiPractica.csproj",
       "packagesPath": "C:\\Users\\agusw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\agusw\\OneDrive\\Escritorio\\APIProgra2\\APIProgra2\\obj\\",
+      "outputPath": "C:\\Users\\agusw\\OneDrive\\Escritorio\\nueva prueba\\APIRegistro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\agusw\\AppData\\Roaming\\NuGet\\NuGet.Config"
